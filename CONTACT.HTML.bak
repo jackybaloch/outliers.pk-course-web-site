@@ -1,0 +1,189 @@
+ <!DOCTYPE HTML>
+<head><title class="profile">OUTLIERS.PK COURSE WEB SITE</title>
+ <link rel="stylesheet" href="SHEET.CSS">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--header-->
+    <div class="center">
+    <div class="circular-image-container">
+      <img src=" C:\Users\Nehal\Downloads\WhatsApp_Image_2023-11-11_at_10.25.13_PM-removebg-preview (3).png" alt="Your Image">
+    </div>
+  </div>
+ 
+<nav>
+ 
+ 
+  
+  <!--HEADRE--> 
+ 
+   <header> 
+<DIV class="nav-links" id="navLinks">
+<i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+<UL> 
+  <LI><a href="INDEX.HTML">HOME</a></LI>
+  <LI><a href="ABOUT US.HTML">ABOUT US</a></LI>
+   <LI><a href=" BLOG.HTML"> BLOG</a></LI>
+  <LI><a href="CONTACT.html">CONTACT US</a></LI>
+  <LI><a href="team.HTML">TEAM</a></LI> 
+  <LI><a href=" SERVICE.HTML"> SERVICES</a></LI>
+  <LI><a href=" PRODUCT.HTML">PRODUCTS</a></LI>
+</DIV>  <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+ 
+</nav> 
+</header>
+<!--HESDRE END-->
+
+<!--BANNER-->
+
+
+                                                                        <!-- CONTACT US -->
+  
+<!--BANNER-->
+<div class="img-responsive"> 
+<DIV class="inner-banner">
+<DIV class="text-block">
+<H1> CONTACT US </H1>
+<P> CONTACT WITH ME </P>
+ 
+</DIV>
+
+</DIV>
+<h1 class="heading" > CONTACT US</h1>
+ <div class="row p40">
+<div class="container"> 
+<div class="col-6"> 
+  <h2>Contact us</h2>
+  <h3>Email:jackybaloch@gmail.com</h3>
+  <h3> phone: +920335688....</h3>
+  <h3>Address: Naukot kaim khani muhalla</h3>
+</div>
+ 
+
+
+
+<div class="row"> 
+<div class="col-6"> 
+  
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">PHONE:</label>
+    <input id="message" name="message" rows="2" required><br>
+
+    <button type="submit">Submit</button>
+  </form>
+ 
+</div>
+</div>
+  </div>
+
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+  
+                                                                     <!--     CONTACT US END -->
+
+
+
+
+<!--FOOTER-->
+
+<footer>
+
+<div class="row">
+<div class="container"> 
+ <div class="col-3">
+ 
+  <h3 class="img-responsive">INFORMA TION</h3>
+   <ul class="footer-menu">
+   <li>FIRST MENU</li>
+   <li>SECOND MENU</li>
+   <li>THIRD MENU</li>
+   <li>FOURTH MENU</li>
+   
+   
+   </ul>
+ </div>
+<div class="row">
+  
+ <div class="col-3">
+ 
+  <h3 class="img-responsive">ABOUT US</h3>
+   <ul class="footer-menu">
+   <li>FIRST MENU</li>
+   <li>SECOND MENU</li>
+   <li>THIRD MENU</li>
+   <li>FOURTH MENU</li>
+   
+   
+   </ul>
+ </div><div class="row">
+
+ <div class="col-3">
+ 
+  <h3 class="img-responsive">SERVICES ON</h3>
+   <ul class="footer-menu">
+   <li>FIRST MENU</li>
+   <li>SECOND MENU</li>
+   <li>THIRD MENU</li>
+   <li>FOURTH MENU</li>
+   
+   
+   </ul>
+ </div><div class="row">
+
+ <div class="col-3">
+ 
+  <h3 class="img-responsive">CONTACT US </h3>
+   <ul class="footer-menu">
+   <li>FIRST MENU</li>
+   <li>SECOND MENU</li>
+   <li>THIRD MENU</li>
+   <li>FOURTH MENU</li>
+   
+   
+   </ul>
+   </div>
+ </div>
+ </div>
+</div>
+
+
+</footer>
+<div class="copyright">
+<p class="img-responsive"> created by javed (c)&copy; 2023 outliers</p>
+</div>
+
+
+<!--FOOTER-->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.left = "0";
+  
+}
+function hideMenu() {
+  navLinks.style.left = "-200PX";
+  
+}
+</script>
+
+</body>

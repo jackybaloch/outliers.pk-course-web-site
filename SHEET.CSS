@@ -1,0 +1,509 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+ 
+	.col-12 {
+		text-align: center;
+	}
+ .ceo-javed { 
+	  width: 350px;
+	  }
+	
+.profile {
+	background: url("C:/Users/Nehal/Downloads/banner1.jpg") no-repeat;
+}
+.logo {
+	text-align: center;
+	MARGIN: 0 auto;
+	padding: 20PX 20PX;
+	width: 200px;
+}
+ /* styles.css */
+.circular-image-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensures full height of the viewport */
+  padding: 0px;
+}
+
+.center {
+  text-align: center;
+}
+.image2 {
+		  font-size: 20px;
+	  }
+
+.circular-image-container {
+  width: 100px; /* Adjust the size of the container */
+  height: 100px; /* Adjust the size of the container */
+  overflow: hidden;
+  border-radius: 50%; /* Makes the container and image circular */
+  display: inline-block;
+}
+
+.circular-image-container img {
+  width: 100%; /* Makes the image fill the circular container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  display: block;
+}
+
+ 
+
+.nav-links{
+	background: #0096c7;
+	text-align: CENTER;
+	  
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 16px;
+position: relative;}
+
+ .nav-links ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	
+}
+.banner {
+	WIDTH: 100%;
+	min-height: 70VH;
+	background: url("C:/Users/Nehal/Downloads/banner1.jpg") no-repeat;
+	background-SIZE: COVER;
+	position: relative;
+}
+.text-block {
+	width: 80%;
+	color:  white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+}
+ .text-block h1 {
+	 font-size: 60px;
+	 color:  white;
+ }
+ .text-block p {
+	 font-size: 20px;
+	 color:  white;
+ }
+  .btn-primary {
+	  display: inline-block;
+	  text-decoration: none;
+	  color: white;
+	  border: 1px solid white;
+	  padding: 12px 40px;
+	  font-size: 15px;
+	  background: transparent;
+	  position: relative;
+	  margin: 20px 0px 0px 0px;
+	  margin-top: 20px;
+	  
+  }
+  
+  .btn-primary:hover {
+	  border: 2px solid #0077b6;
+	  background: #0077b6;
+  }
+  nav .fa-solid {
+	  display: none;
+  }
+  nav .fa-bars{
+	  display: none;
+  }
+@media (max-width: 768px){
+	.ceo-javed { 
+	  width: 150px;
+	  }
+	nav .fa-solid {
+	  display: block;
+	   
+  }
+   
+    
+  footer {
+	background: #231942;
+	color: white;
+	padding: 80px 0px;
+	
+}
+footer ul li {
+	list-style: none;
+	
+	padding: 10px 16px;
+position: relative;}
+
+
+footer h3 {
+	padding: 20px;
+}
+  .copyright {
+	background: black;
+	color: white;
+  text-align: center;
+  }
+  .ad-banner {
+	background: #222;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+  background-SIZE: COVER;}
+  .banner2 {
+ WIDTH: 65%;
+	min-height: 20VH;
+	 
+	background-SIZE: COVER;
+	 
+	text-align: center;
+  }
+   
+  .heading {
+	   text-align: center;
+	   font-size: 25px;
+	   font-family: courier;
+  padding: 25PX 0PX 15PX 0PX;
+  }
+  .img-responsive {
+	max-width: 100%;
+  height: auto;
+  }
+  nav .fa-bars{
+	  display: block;
+  }
+    .fa-bars{
+		position: absolute;
+		left: 10px;
+		top: 20px;
+		font-size: 22px;
+		cursor: pointer;
+	}
+	.fa-bars:hover {
+	  border: 4px solid #90e0ef;
+	  background: #90e0ef;
+	}
+	.text-block h1 {
+	 font-size: 35px;
+	  
+	  
+}
+  .nav-links ul li {
+	 display: block;
+  }
+  .nav-links {
+	  position: absolute;
+	  background: #3a0ca3;
+	  height: 100vh;
+	  width: 200px;
+	  text-align: left;
+	  z-index: 2;
+	  top: 0;
+	  left: -200px;
+	  transition: 1s;
+  }
+  .text-block p {
+	 font-size: 15px;
+	 color:  white;
+  }
+   
+   
+   .banner {
+	WIDTH: 100%;
+	min-height: 70VH;
+	background: url("C:/Users/Nehal/Downloads/banner1.jpg") no-repeat;
+	background-SIZE: COVER;
+	position: relative;
+   
+   
+  
+}
+
+   .nav-links .fa-solid {
+	   display: block;
+	   color: white;
+	   margin: 10px;
+	   font-size: 22px;
+	   cursor: pointer;
+	   
+   }
+	   .nav-links .fa-solid:hover {
+	  border: 0.25px solid blue;
+	  background: blue;
+  }
+  .btn-secondary:hover {
+	  border: 2px solid #0077b6;
+	  background: #0077b6;
+}
+.btn-secondary {display: inline-block;
+	  text-decoration: none;
+	  color: white;
+	  border: 1px solid white;
+	  padding: 10px 20px;
+	  font-size: 15px;
+	  background: black;
+	  position: relative;
+	  margin: 20px 0px 0px 0px;
+margin-top: 20px;}
+	   
+}	   
+	   
+	   
+	   
+   
+   
+    
+ 
+   
+   
+   /* grid system */
+   
+.col-1 { width: 8.33%;}
+.col-2 { width: 16.66%;}
+.col-3 { width: 25%;}
+.col-4 { width: 33.33%;}
+.col-5 { width: 41.66%;}
+.col-6 { width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 { width: 66.66%;}
+.col-9 { width: 75%;}
+.col-10 { width: 83.33%;}
+.col-11 { width: 91.66%;}
+.col-12 { width: 100%;}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+	 
+    /* grid system */
+    
+} 
+   
+   
+   .container {
+	 padding-right: 15px;
+	 padding-right: 15px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 
+ }
+ @media (min-width: 768px) {    .container {
+	 width: 750px;
+ }
+
+ @media (min-width: 992px) {.container {
+	 width: 970px;}
+ @media (min-width: 1200px) {.container {
+	 width: 1200px;}
+ 
+
+   
+   .heading {
+	   text-align: center;
+	   font-size: 50px;
+	   font-family: courier;
+	   padding: 25PX 0PX 15PX 0PX;
+	   
+   }
+   
+ .text-center {
+	 text-align: center;
+ }
+
+
+  
+.banner2 {
+ WIDTH: 65%;
+	min-height: 35VH;
+	 
+	background-SIZE: COVER;
+	position: relative;
+	
+}
+.ad-banner {
+	background: #222;
+	padding: 10px;
+	text-align: center;
+	background-SIZE: COVER;
+}
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+.btn-secondary:hover {
+	  border: 2px solid #0077b6;
+	  background: #7400b8;
+	   margin: 20px 0px 0px 0px;
+margin-top: 20px;
+}
+.btn-secondary {display: inline-block;
+	  text-decoration: none;
+	  color: BLACK;
+	  border: 2px solid PURPLE;
+	  padding: 10px 20px;
+	  font-size: 15px;
+	  background: transparent;
+	  position: relative;
+	  margin: 20px 0px 0px 0px;
+margin-top: 20px;
+
+}
+footer {
+	background: #231942;
+	color: white;
+	padding: 80px 0px;
+	
+}
+fooetr ul li {
+	list-style: none;
+	
+	padding: 10px 16px;
+position: relative;}
+
+
+footer h3 {
+	padding: 20px;
+}
+.copyright {
+	background: black;
+	color: white;
+	text-align: center;
+}
+ .letter {
+	 font-size: 20px;
+ }
+ 
+ }
+
+ }
+  
+   
+
+  }
+  
+  @media (max-width: 768px) {
+	    
+	 .image1 {
+		 width: 100%;
+		 height: 300px;
+	 }
+	  
+	  .image2 {
+		  font-size: 10px;
+	  }
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+  }
+  /*without media corrie*/ 
+   .inner-banner {
+	WIDTH: 100%;
+	min-height: 30VH;
+	background: url("C:/Users/Nehal/Downloads/banner1 - Copy.jpg") no-repeat;
+	background-SIZE: COVER;
+	position: relative;
+   }
+   .p40 {
+   padding: 40px;
+   }
+   .sidebar {
+	    
+	   padding-left: 50px;
+   }
+   .blog-item {
+	   padding-bottom: 50px;
+	   
+   }
+   .blog-area {
+	   border-right: 1px solid #aaa;
+   }
+   .btn-shop {
+	  display: inline-block;
+	  text-decoration: none;
+	  color: white;
+	  border: 2px solid black;
+	  padding: 12px 40px;
+	  font-size: 20px;
+	  background: green;
+	  position: relative;
+	  margin: 20px 0px 0px 0px;
+	  margin-top: 20px;
+	  transition: 0.25s;
+	  text-align: center;
+  }
+  
+  .btn-shop:hover {
+	  border: 2px solid #0077b6;
+	  background: #0077b6;
+	  text-align: center;
+  }
+  .product-name {
+	  text-decoration: underline;
+	  
+  }
+  .price {
+	   
+	  background: transparent;
+	  color: black;
+	  font-size: 28px;
+  }
+  .product-card:hover { border: 1px solid #aaa;
+  transition: 5px;
+	  
+  }
+  form {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+	
+	  
